@@ -1,0 +1,11 @@
+azure project 
+
+
+AZURE COGNITIVE SERVICES 
+KEY 1:58469a2c89644278a42575df216d7eab
+KEY 2 :7fcdeaade19c49d68ff47e526b4c42a5 
+ENDPOINT: https://youtube-transcript.cognitiveservices.azure.com/
+
+database
+username: root
+password : saloni

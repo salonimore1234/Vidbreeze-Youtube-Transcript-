@@ -1,0 +1,79 @@
+/* General reset for padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    background: url(/static/image/youtube.png) no-repeat center center fixed;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e; /* Dark background */
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Title container styling */
+.title-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Title styling with red border */
+.title {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    background: rgba(0, 0, 0, 0.6); /* Optional background for contrast */
+    border: 3px solid #ff4b2b; /* Red border */
+    border-radius: 8px; /* Rounded corners */
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Container for the transcript */
+.transcript-container {
+    margin: 30px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+    height: 80vh;
+    overflow-y: scroll;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+/* Text inside the transcript */
+.transcript {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    padding: 10px;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+/* Scrollbar styling */
+.transcript-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+.transcript-container::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+
+.transcript-container::-webkit-scrollbar-thumb {
+    background: #ff4b2b;
+    border-radius: 6px;
+}
+
+.transcript-container::-webkit-scrollbar-thumb:hover {
+    background: #ff416c;
+}
