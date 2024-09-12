@@ -1,8 +1,7 @@
-# VidBreeze -
+# VidBreeze - Youtube Transcript Summarizer
 
 The YouTube Transcript Summarizer is a web application that efficiently extracts and summarizes transcripts from YouTube videos. Designed for users who need concise information from lengthy video content, this tool streamlines the process of understanding video content without needing to watch the entire video.
 
-# Project Details
 
 
  # Problem Statement
@@ -14,14 +13,6 @@ Efficiently Extract Transcripts: Automatically retrieve the full transcript of a
 Summarize Content: Condense the extracted transcript into a concise summary that highlights the key points of the video, enabling users to quickly understand the content.
 User-Friendly Access: Provide a seamless and intuitive interface for users to input video URLs and receive summaries in an easily accessible format.
 Data Management: Store and manage transcripts and summaries in a database for easy retrieval and future reference.
-
-# Azure Service Used
-1. Azure Cognitive Service
-  Azure Cognitive Services is a collection of ready-to-use artificial intelligence that allow developers to incorporate advanced AI capabilities into their projects.
-  
-2. Azure Web app Service
-   The project utilizes Azure App Service to host the web application, ensuring scalability, reliability, and ease of deployment. This service enables seamless integration with other Azure components and provides 
-   a secure environment for the application.
 
 
 # Project Description
