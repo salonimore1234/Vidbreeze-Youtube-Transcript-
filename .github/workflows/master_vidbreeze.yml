@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
-name: Build and deploy Python app to Azure Web App - Vidbreeze
+name: Build and deploy Python app to Azure Web App - VidBreeze
 
 on:
   push:
@@ -65,14 +65,14 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_F48DC73733864CD98DD51401CCCB462C }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_8A19C35CDE464F8683419B564B82E2E0 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_18B9604983454D59905DDEABAAB55664 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_3149A29533624F82867AC4935B3739D7 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_1DB20F2B67C140F9B766408650982A8C }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_1998F4CD574045BFB0943590234815BF }}
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'Vidbreeze'
+          app-name: 'VidBreeze'
           slot-name: 'Production'
           
